@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Список</title>
+ </head>
+ <body>
+  <h2>Сколько времени в </h2>
+  <form method="POST" action="/index">
+    <p><select name="select" size="1">
+    <option selected value="-1">Калининграде</option>
+    <option value="0">Москве</option>
+    <option value="1">Самаре</option>
+    <option value="2">Екатеринбурге</option>
+    <option value="3">Омске</option>
+    <option value="4">Красноярске</option>
+    <option value="5">Иркутске</option>
+    <option value="6">Якутске</option>
+    <option value="7">Владивостоке</option>
+    <option value="8">Магадане</option>
+    <option value="9">Петропавловск-Камчатском</option>
+    </select>
+    <input type="submit" value="Посчитать"></p>
+  </form>
+  <h2>{{answer}}</h2>
+ </body>
+</html>
